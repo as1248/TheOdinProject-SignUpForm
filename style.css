@@ -143,6 +143,25 @@ body {
   flex-direction: column;
   margin-right: 15%;
   margin-bottom: 30px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.inputBox {
+  height: 1.8rem;
+  margin-top: 0.5rem;
+  border: 1px solid #E5E7EB;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.inputBox:focus {
+  outline-color: blue;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.inputBox:invalid {
+  border: 2px solid #CB5555;
 }
 
 .createBtn {

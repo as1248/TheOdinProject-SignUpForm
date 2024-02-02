@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
@@ -21,33 +21,33 @@
       <span>Sign Up now to get started.</span>
       <span>You know you want to</span>
     </div>
-    <form action="submit">
+    <form action="">
       <div class="signUp">
         <div class="title">Let's do this!</div>
         <div class="inputs">
           <div class="input">
-            <label>FIRST NAME</label>
-            <input/>
+            <label for="firstName">FIRST NAME</label>
+            <input class="inputBox" type="text" id="firstName" name="firstName"/>
           </div>
           <div class="input">
-            <label>LAST NAME</label>
-            <input/>
+            <label for="lastName">LAST NAME</label>
+            <input class="inputBox" type="text" id="lastName" name="lastName"/>
           </div>
           <div class="input">
-            <label>EMAIL</label>
-            <input/>
+            <label for="email">EMAIL</label>
+            <input class="inputBox" type="email" id="email" name="email"/>
           </div>
           <div class="input">
-            <label>PHONE NUMBER</label>
-            <input/>
+            <label for="phoneNumber">PHONE NUMBER</label>
+            <input class="inputBox" type="tel" id="phoneNumber" name="phoneNumber"/>
           </div>
           <div class="input">
-            <label>PASSWORD</label>
-            <input/>
+            <label for="password">PASSWORD</label>
+            <input class="inputBox" type="password" required id="password" name="password"/>
           </div>
           <div class="input">
-            <label>CONFIRM PASSWORD</label>
-            <input/>
+            <label for="passwordConfirm">CONFIRM PASSWORD</label>
+            <input class="inputBox" type="password" required id="passwordConfirm" name="passwordConfirm"/>
           </div>
         </div>
       </div>
